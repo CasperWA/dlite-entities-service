@@ -6,7 +6,7 @@ from typing import Annotated, Any
 from pydantic import BaseModel, Field, field_validator, model_validator
 from pydantic.networks import AnyHttpUrl
 
-from dlite_entities_service.config import CONFIG
+from dlite_entities_service.service.config import CONFIG
 
 
 class SOFT5Dimension(BaseModel):
